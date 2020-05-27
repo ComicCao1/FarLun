@@ -1,0 +1,23 @@
+version name: Screaming Eagle
+version number: 0.5.0
+coderlist: 
+  - CthulhuOnIce
+changes: 
+  - tweak: Lowers health of giant spiders
+  - tweak: The fullscreen preference is now in the preferences tab, and is persistent across rounds.
+  - bugfix: fixes leper gamemode name and config tag
+  - bugfix: the round actually starts with antags now
+  - remove: You can't unready after readying
+  - tweak: Headshots are more realistic, and will very likely kill you.
+  - tweak: Adds the succumb verb to the 
+  - remove: Removes a bunch of jobs
+  - tweak: Tweaks a bunch of the other jobs
+  - bugfix: You can no longer stack executions
+  - adds: Audible emotes can now be gender dependant (different sounds for male and female)
+  - tweak: Drag your sprite onto another player to open up their interaction panel
+  - bugfix: The backpack now automatically closes when you re-equip it.
+  - tweak: Winding / cranking to charge items now gives you feedback
+  - tweak: Colored the mood gain / loss messages
+  - wip: Changed all second person speech to first person
+  - remove: Removes custom flavortexts
+  - remove: Removes the inventory toggle, it is now automatically expanded

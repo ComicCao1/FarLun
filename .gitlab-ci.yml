@@ -1,0 +1,29 @@
+.script: &build_script
+    - DreamMaker Genesis/Genesis.dme
+
+before_script:
+  - export BYOND_MAJOR="512"
+  - export BYOND_MINOR="1466"
+  - export ZIP_NAME="$BYOND_MAJOR.$BYOND_MINOR""_byond_linux.zip"
+  - apt-get update -y
+  - apt-get upgrade -y
+  - apt-get dist-upgrade -y
+  - apt-get -y autoremove
+  - apt-get clean -y
+  - apt-get install unzip -y
+  - apt-get install gcc-multilib -y
+  - apt-get install python2.7 -y
+  - cd $CI_PROJECT_DIR
+  - wget "http://www.byond.com/download/build/$BYOND_MAJOR/$ZIP_NAME"
+  - unzip "$ZIP_NAME"
+
+  - cd byond
+  - make
+  - make here
+  - source $CI_PROJECT_DIR/byond/bin/byondsetup
+  - cd ../
+  
+
+Compile:
+  stage: build
+  script: *build_script

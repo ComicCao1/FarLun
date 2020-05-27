@@ -1,0 +1,20 @@
+version name: Mighty Mouse (the nickname for the release youre making)
+version number: 0.0.0
+coderlist:
+  - A
+  - List
+  - Of
+  - Coders
+changes:
+  - add: Added something
+  - tweak: Tweaked something
+  - remove: removed something
+  - bugfix: Fixed a bug
+  - map: Changed the map
+  - spriteadd: added an image or sprite
+  - soundadd: added music or sound
+  - spritedel: removed an image or sprite
+  - sounddel: removed music or a sound
+  - balance: balanced a mechanic
+  - grammar: fixed grammar or spelling
+  - wip: progress report on progress

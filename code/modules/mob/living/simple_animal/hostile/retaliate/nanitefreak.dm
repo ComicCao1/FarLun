@@ -1,0 +1,21 @@
+/mob/living/simple_animal/hostile/retaliate/horror
+	name = "Nanite Monster"
+	desc = "What the fuck?!"
+	icon = 'icons/mob/mob.dmi'
+	icon_state = "horror"
+	icon_living = "horror"
+	icon_dead = "horror_dead"
+	speak_emote = list("screeches")
+	emote_hear = list("screeches")
+	emote_see = list("shambles around, terrifyingly")
+	meat_amount = 12
+	response_help  = "placates"
+	response_harm   = "mutilates"
+	attacktext = "mutilated"
+	health = 500
+	maxHealth = 500
+	melee_damage_lower = 35
+	melee_damage_upper = 55
+	mob_size = MOB_LARGE
+	can_escape = 1
+	a_intent = I_HURT

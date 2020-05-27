@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #242424;
+    color: white;
+}
+
+.changes {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.remove {
+    border: 2px solid rgba(122, 0, 0, 1);
+    border-left: 8px solid rgba(122, 0, 0, 1);
+    text-align: left;
+    width: 750;
+    padding: 5
+}
+
+.add {
+    border: 2px solid rgba(31, 122, 0, 1);
+    border-left: 8px solid rgba(31, 122, 0, 1);
+    text-align: left;
+    width: 750;
+    padding: 5
+}
+
+.change {
+    border: 2px solid rgba(118, 122, 0, 1);
+    border-left: 8px solid rgba(118, 122, 0, 1);
+    text-align: left;
+    width: 750;
+    padding: 5
+}
+
+.improve {
+    border: 2px solid rgba(0, 10, 122, 1);
+    border-left: 8px solid rgba(0, 10, 122, 1);
+    text-align: left;
+    width: 750;
+    padding: 5
+}
