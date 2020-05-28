@@ -1,7 +1,7 @@
 /turf/simulated/floor/genesis/grass
 	name = "grass"
-	icon = 'icons/turf/jungle.dmi'
-	icon_state = "default_grass"
+	icon = 'icons/cavefloor.dmi'
+	icon_state = "asteroid0"
 	diggable = 1
 
 /turf/simulated/floor/genesis/grass/get_footstep_sound()
@@ -51,3 +51,33 @@
 	opacity = 1
 	density = 1
 	blocks_air = 1
+
+/obj/structure/mushroom
+	name = "You shouldn't be seeing this"
+	desc = ""
+	icon = 'icons/mining.dmi'
+	icon_state = "shroom"
+	opacity = 0
+	density = 1
+
+/obj/structure/mushroom/dlolont
+	name = "dlolont"
+	desc = "You hope it wont poison you."
+	icon_state = "dlolont"
+/obj/structure/mushroom/meatshroom
+	name = "meatshroom"
+	desc = "You hope it wont poison you."
+	icon_state = "meatshroom1"
+/obj/structure/mushroom/sadshroom
+	name = "sadshroom"
+	desc = "You hope it wont poison you."
+	icon_state = "sadshroom"
+/obj/structure/mushroom/bshroom
+	name = "bshroom"
+	desc = "You hope it wont poison you."
+	icon_state = "bshroom1"
+/obj/structure/mushroom/wshroom
+	name = "wshroom"
+	desc = "You hope it wont poison you."
+	icon_state = "wshroom"
+

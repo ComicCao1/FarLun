@@ -13,5 +13,4 @@
 		for(var/turf/simulated/floor/beach/water/ocean/w in waters)
 			for(var/turf/simulated/floor/genesis/grass/t in range(1, w))
 				if(prob(probability))		t.ChangeTurf(/turf/simulated/floor/beach/water/ocean)
-
 	return 1
